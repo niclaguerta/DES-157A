@@ -25,7 +25,8 @@ header, body, footer {
 /* Header Rules */
 
 #banner {
-    background-color: #fed688;
+    background: rgb(237,169,98);
+    background: linear-gradient(0deg, rgba(237,169,98,1) 0%, rgba(255,201,116,1) 25%, rgba(255,201,116,1) 50%, rgba(255,201,116,1) 75%, rgba(237,169,98,1) 100%);
     padding: 20px;
     border: 5px solid #441209;
     border-radius: 10px;;
@@ -106,7 +107,7 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #336f42;
+    color: #e2793e;
     font-size: 1.4em;
     animation: wiggle 0.3s ease-in-out infinite;
 }
@@ -153,7 +154,8 @@ main h2 {
 }
 
 main {
-    background-color: #fed688;
+    background: rgb(237,169,98);
+    background: linear-gradient(0deg, rgba(237,169,98,1) 0%, rgba(255,201,116,1) 25%, rgba(255,201,116,1) 50%, rgba(255,201,116,1) 75%, rgba(237,169,98,1) 100%);
     padding: 20px;
     border: 5px solid #441209;
     border-radius: 10px;
