@@ -39,7 +39,7 @@ header, body, footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 #banner img {
@@ -127,7 +127,7 @@ ul li a:hover {
 /* Body Rules */
 
 #leaf {
-    animation: scale 3s linear infinite;
+    animation: scale 2s linear infinite;
 }
 
 @keyframes scale {
@@ -139,7 +139,7 @@ body {
     width: 1200px;
     background: url(clouds.jpeg);
     margin: auto;
-    padding: 50px;
+    padding: 25px;
     text-align: center;
     font-size: 1em;
 }
