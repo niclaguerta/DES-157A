@@ -53,6 +53,7 @@ header, body, footer {
 #banner p {
     font-size: 0.75em;
     color: #441209;
+    margin-top: 10px;
 }
 
 #title {
