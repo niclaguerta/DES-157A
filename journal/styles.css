@@ -1,0 +1,58 @@
+body {
+    width: 960px;
+    background: rgb(253,232,130);
+    background: linear-gradient(90deg, rgba(253,232,130,1) 0%, rgba(247,143,173,1) 100%);
+    padding: 20px;
+    font-size: 1.25em;
+    margin: auto;
+}
+
+p, time, a {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    background-color: #F2F2E4;
+    padding: 15px 30px 15px 30px;
+    line-height: 1.75em;
+    border-radius: 30px;
+    border: groove 5px #000;
+}
+
+main article {
+    padding: 25px;
+}
+
+footer, footer p, footer a {
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    padding: 10px;
+    line-height: 2em;
+}
+
+/* Header Rules */
+
+header {
+    color: #000000;
+    font-size: 1.5em;
+    border-radius: 30px;
+}
+
+h1 {
+    text-align: center;
+    padding: 70px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: auto;
+}
+
+main h2 {
+    color: #ff3d75;
+    line-height: 1.5em;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
