@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 2</title>
+</head>
+
+<body>
+    <h1>Experiment 2</h1>
+
+    <script>
+        var userColor = prompt("Guess the color I'm thinking of. Choose a primary or secondary color:");
+        var colors = ['red', 'yellow', 'blue', 'green', 'orange', 'purple'];
+
+        var randomIndex = Math.floor(Math.random() * colors.length);
+        var computerColor = colors[randomIndex];
+
+        if(userColor === computerColor) {
+            alert("You are right!");
+        } else {
+            alert(`Try again! I was thinking of ${computerColor}`);
+        }
+
+    </script>
+    
+</body>
+</html>
