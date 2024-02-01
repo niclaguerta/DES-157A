@@ -12,7 +12,7 @@ p, time, a {
     font-family: 'Montserrat', sans-serif;
 }
 
-main {
+main article .articles {
     background-color: #F2F2E4;
     padding: 15px 30px 15px 30px;
     line-height: 1.75em;
