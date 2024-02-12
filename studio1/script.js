@@ -109,7 +109,7 @@
             document.querySelector('#nickname2').focus();
         }
         else {
-            myText = `We need to talk. After ${number} ${time} of being together, I've realized that we're more ${adj1} than a ${band} reunion tour.
+            myText = `${nickname1}, We need to talk. After ${number} ${time} of being together, I've realized that we're more ${adj1} than a ${band} reunion tour.
                 
             I've always loved your ${adj2} style and how you ${verb1} like nobody's watching. But, my inner ${popstar} tells me it's time to ${verb2} on my own. 
             
