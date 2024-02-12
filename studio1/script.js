@@ -20,7 +20,6 @@
         if (event.key === 'Escape') {
             document.getElementById('overlay').className = 'hidden';
             
-            // Clear the madlib content when closing the overlay
             document.getElementById('madlib').innerHTML = "";
         }
     });
@@ -123,7 +122,6 @@
             -${nickname2}`;
         }
 
-        // Display the generated madlib
         document.getElementById('madlib').innerHTML = myText;
 
         let styledText = `<div id="overlay" class="showing">
