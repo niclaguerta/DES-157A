@@ -24,11 +24,12 @@ body, footer {
     max-width: 1200px;
     margin: auto;
     font-family: 'Permanent Marker', cursive;
+    width: 960px;
 }
 
 header, main, footer {
-    background: rgb(246,196,225);
-    background: radial-gradient(circle, rgba(246,196,225,1) 0%, rgba(246,196,225,1) 50%, rgba(232,84,175,1) 100%);
+    background: rgb(250,235,215);
+    background: radial-gradient(circle, rgba(250,235,215,1) 0%, rgba(255,216,165,1) 100%);
     margin-top: 50px;
     margin-bottom: 50px;
     border: #000 solid 10px;
@@ -55,9 +56,27 @@ main form {
 button#sendButton {
     display: block;
     margin: 20px auto;
-    font-size: 2.5em;
+    font-size: 2.25em;
     background-color: #cc191d;
     color: white;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    padding: 0px 5px 0px 5px;
+}
+
+button#sendButton:hover {
+    font-size: 2.7em;
+    animation: wiggle 0.3s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+    0%, 100% {
+        transform: rotate(-3deg);
+    }
+    50% {
+        transform: rotate(3deg);
+    }
 }
 
 footer {
@@ -94,7 +113,8 @@ form input {
     box-sizing: border-box;
     margin-bottom: 10px;
     border-width: 3px;
-    border-color: black;
+       border-color: black;
+    font-family: 'Kalam', cursive;
 }
 
 
@@ -152,4 +172,8 @@ form input {
     cursor: pointer;
     align-self: center;
     border-radius: 10px;
+}
+
+#overlay article .close:hover {
+    animation: wiggle 0.3s ease-in-out infinite;
 }
