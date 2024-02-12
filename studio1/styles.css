@@ -56,7 +56,7 @@ main form {
 button#sendButton {
     display: block;
     margin: 20px auto;
-    font-size: 2.25em;
+    font-size: 2.5em;
     background-color: #cc191d;
     color: white;
     border-radius: 10px;
@@ -66,7 +66,6 @@ button#sendButton {
 }
 
 button#sendButton:hover {
-    font-size: 2.7em;
     animation: wiggle 0.3s ease-in-out infinite;
 }
 
@@ -113,7 +112,7 @@ form input {
     box-sizing: border-box;
     margin-bottom: 10px;
     border-width: 3px;
-       border-color: black;
+    border-color: black;
     font-family: 'Kalam', cursive;
 }
 
