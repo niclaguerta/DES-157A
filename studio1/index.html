@@ -4,72 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mad Libs</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
     <script src="script.js" defer></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam&family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Dump Him</h1>
+    <header>
+        <h1>Dump Him</h1>
 
-    <img src="images/AdobeStock_542981419.jpeg" alt="pink phone" width="400" height="400">
+        <img src="images/AdobeStock_660771534.png" alt="pink phone" width="250" height="250">
+    </header>
 
     <main>
+
         <form>
-            <label for="nickname1">Nickname</label>
-            <input type="text" id="nickname1" required>
+            <div>
+                <label for="nickname1">Nickname</label>
+                <input type="text" id="nickname1">
 
-            <label for="number">Number</label>
-            <input type="text" id="number" required>
+                <label for="number">Number</label>
+                <input type="text" id="number">
 
-            <label for="time">Unit of Time</label>
-            <input type="text" id="time" required>
+                <label for="time">Unit of Time</label>
+                <input type="text" id="time">
 
-            <label for="adj1">Adjective</label>
-            <input type="text" id="adj1" required>
+                <label for="adj1">Adjective</label>
+                <input type="text" id="adj1">
 
-            <label for="band">Band Name</label>
-            <input type="text" id="band" required>
+                <label for="band">Band Name</label>
+                <input type="text" id="band">
 
-            <label for="adj2">Adjective</label>
-            <input type="text" id="adj2" required>
+                <label for="adj2">Adjective</label>
+                <input type="text" id="adj2">
 
-            <label for="verb1">Verb</label>
-            <input type="text" id="verb1" required>
+                <label for="verb1">Verb</label>
+                <input type="text" id="verb1">
 
-            <label for="popstar">Female Pop Star</label>
-            <input type="text" id="popstar" required>
+                <label for="popstar">Female Pop Star</label>
+                <input type="text" id="popstar">
+            </div>
 
-            <label for="verb2">Verb</label>
-            <input type="text" id="verb2" required>
+            <div>
+                <label for="verb2">Verb</label>
+                <input type="text" id="verb2">
 
-            <label for="verb3">Verb</label>
-            <input type="text" id="verb3" required>
+                <label for="verb3">Verb</label>
+                <input type="text" id="verb3">
 
-            <label for="verb4">Verb</label>
-            <input type="text" id="verb4" required>
+                <label for="verb4">Verb</label>
+                <input type="text" id="verb4">
 
-            <label for="celeb">Celebrity</label>
-            <input type="text" id="celeb" required>
+                <label for="celeb">Celebrity</label>
+                <input type="text" id="celeb">
 
-            <label for="movie">Movie Title</label>
-            <input type="text" id="movie" required>
+                <label for="movie">Movie Title</label>
+                <input type="text" id="movie">
 
-            <label for="catchphrase">Catchphrase</label>
-            <input type="text" id="catchphrase" required>
+                <label for="catchphrase">Catchphrase</label>
+                <input type="text" id="catchphrase">
 
-            <label for="noun">Noun</label>
-            <input type="text" id="noun" required>
+                <label for="noun">Noun</label>
+                <input type="text" id="noun">
 
-            <label for="nickname2">Nickname</label>
-            <input type="text" id="nickname2" required>
-
-            <input type="submit" value="send">
+                <label for="nickname2">Nickname</label>
+                <input type="text" id="nickname2">
+                
+            </div>
         </form>
 
-        <article id="madlib"></article>
+        <button id="sendButton">Send</button>
+
+        <section id="overlay" class="hidden">
+            <article id="madlib">
+                <p>${nickname1},</p>
+
+                <p>We need to talk. After ${number} ${time} of being together, I've realized that we're more ${adj1} than a ${band} reunion tour.</p>
+                
+                <p>I've always loved your ${adj2} style and how you ${verb1} like nobody's watching. But, my inner ${popstar} tells me it's time to ${verb2} on my own.</p> 
+                
+                <p>I need to ${verb3} myself, to explore, to ${verb4} like ${celeb} in ${movie}. So, I'm saying "${catchphrase}" to us.</p> 
+                
+                <p>Please understand, that this isn't about ${noun}; it's about me.</p> 
+                
+                <p>So, goodbye.</p>
+                
+                <p>-${nickname2}</p>
+
+            </article>
+            <button class="close">close</button>
+        </section>
         
     </main>
     
-    <footer></footer>
+    <footer id="footer">
+        <p>Designed by Nicole Laguerta</p>
+        <address>
+            Contact: <a href="mailto:&#114;&#115;&#108;&#097;&#103;&#117;&#101;&#114;&#116;&#097;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#114;&#115;&#108;&#097;&#103;&#117;&#101;&#114;&#116;&#097;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a>
+        </address>
+    </footer>
     
 </body>
 </html>
