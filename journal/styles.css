@@ -1,3 +1,14 @@
+img { 
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
 body {
     width: 960px;
     background: rgb(253,232,130);
