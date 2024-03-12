@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+img { 
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 30px;
+}
+
+main {
+    background-color: #FFF5F0;
+    max-width: 960px;
+    margin: auto;
+    padding: 0px 100px 50px 100px;
+}
+
+body {
+    background: url(images/background.png);
+    margin: 0;
+    padding: 0 50px 0 50px;
+}
+
+header {
+    padding: 50px;
+    max-width: 960px;
+    text-align: center;
+    margin: auto;
+    background-color: #FFF5F0;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.75em;
+}
+
+p {
+    line-height: 2em;
+    font-size: 1.25em;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-bottom: 25px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
