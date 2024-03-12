@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+img { 
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 30px;
+}
+
+main {
+    background-color: #FFF5F0;
+    max-width: 1020px;
+    text-align: center;
+    margin: auto;
+}
+
+body {
+    background-color: #edb0b8;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0 50px 0 50px;
+}
+
+header {
+    padding: 25px;
+    max-width: 1020px;
+    text-align: center;
+    margin: auto;
+    background-color: #B0C4B1;
+}
+
+header h1 {
+    font-family: "Wendy One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+    color: #243133;
+}
+
+#rules {
+    color: #C13735;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 25px 75px 25px 75px;
+    font-size: 1.25em;
+}
+
+#graphics {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+#game {
+    gap: 25px;
+}
+
+footer {
+    padding: 50px 0px 25px 0px;
+}

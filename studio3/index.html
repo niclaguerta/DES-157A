@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of PIG</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Wendy+One&display=swap" rel="stylesheet">
+
+	<link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <header>
+           <h1>Who Does Ke$ha Love More?</h1> 
+        </header>
+        
+        <p id="rules">Two players take turns rolling dice. The roll adds to their score unless a "one" is rolled, ending their turn. The first to score 30 points wins. Rolling two "ones" resets the score to zero.</p> 
+
+        <div id="graphics">
+            <img src="images/food1.png" alt="food bowl" width="200" height="96">
+            <img src="images/chonk.png" alt="chonk" width="400" height="478">
+            <img src="images/food2.png" alt="food bowl" width="200" height="96">
+        </div>
+
+        <div id="gamecontrol">
+            <h2>Start the Game</h2>
+            <button id="startgame">Randomly Pick the First Player</button>
+        </div>
+
+        <div id="game"></div>
+        <div id="actions"></div>
+        <div id="score"></div>
+
+        <footer id="footer">
+            <p>Designed by Nicole Laguerta</p>
+            <address>
+                Contact: <a href="mailto:&#114;&#115;&#108;&#097;&#103;&#117;&#101;&#114;&#116;&#097;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#114;&#115;&#108;&#097;&#103;&#117;&#101;&#114;&#116;&#097;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a>
+            </address>
+        </footer>
+    </main>
+    
+</body>
+</html>
